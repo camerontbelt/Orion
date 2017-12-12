@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Program Files/KiCad/plus_minus_5voltSource/plus_minus_5voltSource.sch</source>
+    <date>8/10/2015 9:47:05 PM</date>
+    <tool>Eeschema (2015-07-11 BZR 5925, Git c291b88)-product</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>plus_minus_5voltSource.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>CP</value>
+      <footprint>Capacitors_Elko_ThroughHole:Elko_vert_11.2x6.3mm_RM2.5</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55A1F1B0</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>CP</value>
+      <footprint>Capacitors_Elko_ThroughHole:Elko_vert_11.2x6.3mm_RM2.5</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55A1F213</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>7660</value>
+      <footprint>Housings_DIP:DIP-8_W7.62mm</footprint>
+      <libsource lib="Custom" part="7660"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55A2DB3D</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>USB_B</value>
+      <footprint>Connect:USB_Mini-B</footprint>
+      <libsource lib="conn" part="USB_B"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55A2DCA0</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>HEADER_3PIN</value>
+      <footprint>PCB:HEADER_1x03</footprint>
+      <libsource lib="Custom" part="HEADER_3PIN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55A2E074</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>Elko*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="USB_B">
+      <description>USB B connector</description>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">USB_B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom" part="7660">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">7660</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="input"/>
+        <pin num="2" name="CAP+" type="input"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="CAP-" type="input"/>
+        <pin num="5" name="Vout" type="input"/>
+        <pin num="6" name="LV" type="input"/>
+        <pin num="7" name="OSC" type="input"/>
+        <pin num="8" name="Vin" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom" part="HEADER_3PIN">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER_3PIN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+        <pin num="3" name="3" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="Custom">
+      <uri>C:\Program Files\KiCad\share\kicad\library\Custom.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="P1" pin="4"/>
+      <node ref="U1" pin="3"/>
+      <node ref="C2" pin="1"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="2" name="VCC">
+      <node ref="U1" pin="8"/>
+      <node ref="P1" pin="1"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="3" name="Net-(P1-Pad2)">
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="4" name="V-">
+      <node ref="U1" pin="5"/>
+      <node ref="J1" pin="1"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="5" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="6" name="Net-(C1-Pad2)">
+      <node ref="U1" pin="4"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="7" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="8" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="9" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="10" name="Net-(P1-Pad3)">
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="11" name="Net-(P1-Pad5)">
+      <node ref="P1" pin="5"/>
+    </net>
+  </nets>
+</export>
