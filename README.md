@@ -11,3 +11,5 @@ This is a simple power module to convert a USB power source into a regulated pos
 * BJT circuits
 * MOSFET circuits
 * Any circuit you need a quick +/- voltage supply!
+
+##### Made with KiCad
