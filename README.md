@@ -12,4 +12,4 @@ This is a simple power module to convert a USB power source into a regulated pos
 * MOSFET circuits
 * Any circuit you need a quick +/- voltage supply!
 
-https://img.shields.io/badge/Made%20with%20-KiCad-blue.svg
+![Made with KiCad!](https://img.shields.io/badge/Made%20with%20-KiCad-blue.svg)
