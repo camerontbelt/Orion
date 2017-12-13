@@ -8,7 +8,7 @@ c5;	        10uF;
 c6;	        10uF;                       
 d1;	        green;                      
 d2;	        green;                      
-j1;	        usb b mini;                 
+j1;	        usb b micro;                 609-4618-2-ND
 p1;	        right angle header pins;    
 r1;	        1.5k;                       
 r2;	        1.5k;                       
