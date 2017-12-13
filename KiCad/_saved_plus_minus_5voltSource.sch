@@ -51,7 +51,7 @@ U 1 1 55A1F1B0
 P 5150 3400
 F 0 "C1" H 5175 3500 50  0000 L CNN
 F 1 "CP" H 5175 3300 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D5_L6_P2.5" H 5188 3250 30  0001 C CNN
+F 2 "Capacitors_ThroughHole:CP_Radial_D5.0mm_P2.50mm" H 5188 3250 30  0001 C CNN
 F 3 "" H 5150 3400 60  0000 C CNN
 	1    5150 3400
 	1    0    0    -1  
@@ -62,7 +62,7 @@ U 1 1 55A1F213
 P 6800 3650
 F 0 "C2" H 6825 3750 50  0000 L CNN
 F 1 "CP" H 6825 3550 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D5_L6_P2.5" H 6838 3500 30  0001 C CNN
+F 2 "Capacitors_ThroughHole:CP_Radial_D5.0mm_P2.50mm" H 6838 3500 30  0001 C CNN
 F 3 "" H 6800 3650 60  0000 C CNN
 	1    6800 3650
 	-1   0    0    1   
@@ -191,7 +191,7 @@ U 1 1 5796D4F8
 P 6250 4750
 F 0 "P1" H 6250 4950 50  0000 C CNN
 F 1 "CONN_01X03" V 6350 4750 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x03" H 6250 4750 60  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x03_Pitch2.54mm" H 6250 4750 60  0001 C CNN
 F 3 "" H 6250 4750 60  0000 C CNN
 	1    6250 4750
 	0    -1   -1   0   
