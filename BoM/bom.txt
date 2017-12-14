@@ -1,5 +1,5 @@
 BoM
-ref; 	    value;	 		            digikey part number 
+ref; 	    	value;	 		            digikey part number 
 c1;	        10uF;			                        
 c2;	        10uF;                       
 c3;	        10uF;                       
@@ -12,7 +12,7 @@ j1;	        usb b micro;                 609-4618-2-ND
 p1;	        right angle header pins;    
 r1;	        1.5k;                       
 r2;	        1.5k;                       
-sw1;	    push button on/off;         CW181-ND
+sw1;	    	push button on/off;         CW181-ND
 u1;	        +5v reg;                    296-20933-2-ND
 u2;	        7660;                       
 u3;	        -5v reg;                    296-31456-1-ND
