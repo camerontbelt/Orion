@@ -1,6 +1,6 @@
 ## A simple, portable USB power supply
 
-This is a simple power module to convert a USB power source into a regulated positive and negative power supply for use with breadboards. It is designed to be small, and easily used with any five volt USB power brick. 
+The Orion is a simple power module to convert a USB power source into a regulated positive and negative power supply for use with breadboards. It is designed to be small, and easily used with any five volt USB power brick. 
 
 ### What you will need
 * USB B Mini cable
