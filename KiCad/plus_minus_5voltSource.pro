@@ -1,4 +1,4 @@
-update=Monday, December 11, 2017 'PMt' 10:49:28 PM
+update=Friday, December 15, 2017 'PMt' 05:38:12 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,13 @@ LibName29=contrib
 LibName30=valves
 LibName31=Custom
 LibName32=/Users/cameronbelt/Downloads/kicad-symbols-master/Switch
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

@@ -36,12 +36,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "+/-5V Portable supply"
+Title "Orion"
 Date "2017-12-11"
 Rev "2.0.0"
-Comp "AVO Labs"
+Comp "AVO Electronics"
 Comment1 "Cameron Belt"
-Comment2 ""
+Comment2 "+/-5V Portable supply"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -255,7 +255,7 @@ L LM79L05_TO92 U3
 U 1 1 5A2F6596
 P 8650 3550
 F 0 "U3" H 8500 3425 50  0000 C CNN
-F 1 "LM79L05_TO92" H 8650 3425 50  0000 L CNN
+F 1 "MC79L05A" H 8650 3425 50  0000 L CNN
 F 2 "TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval" H 8650 3350 50  0001 C CIN
 F 3 "" H 8650 3550 50  0001 C CNN
 	1    8650 3550
@@ -283,7 +283,7 @@ L LM7805_TO220 U1
 U 1 1 5A2F6BD4
 P 3950 3550
 F 0 "U1" H 3800 3675 50  0000 C CNN
-F 1 "LM7805_TO220" H 3950 3675 50  0000 L CNN
+F 1 "LM7805" H 3950 3675 50  0000 L CNN
 F 2 "TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval" H 3950 3775 50  0001 C CIN
 F 3 "" H 3950 3500 50  0001 C CNN
 	1    3950 3550
