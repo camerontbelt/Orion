@@ -1,4 +1,4 @@
-update=Friday, December 15, 2017 'PMt' 05:38:12 PM
+update=Saturday, December 16, 2017 'PMt' 03:05:41 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -64,7 +64,7 @@ LibName32=/Users/cameronbelt/Downloads/kicad-symbols-master/Switch
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=../Schematic/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
