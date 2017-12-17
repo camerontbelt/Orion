@@ -1,18 +1,18 @@
 BoM
-ref, 	    	value,	 		         digikey part number 
-c1,	        10uF,			            P19522CT-ND
-c2,	        10uF,                       P19522CT-ND
-c3,	        10uF,                       478-8042-1-ND
-c4,	        10uF,                       478-8042-1-ND
-c5,	        10uF,                       478-8042-1-ND
-c6,	        10uF,                       478-8042-1-ND
-d1,	        green,                      516-1792-1-ND
-d2,	        green,                      516-1792-1-ND
-j1,	        usb b micro,                 609-4618-2-ND
-p1,	        right angle header pins,    952-3615-ND
-r1,	        1.5k,                       CF14JT1K50CT-ND
-r2,	        1.5k,                       CF14JT1K50CT-ND
-sw1,	    	push button on/off,         CW181-ND
-u1,	        +5v reg,                    296-20933-1-ND
-u2,	        7660,                       LMC7660IN/NOPB-ND
-u3,	        -5v reg,                    296-31456-1-ND
+ref	value	digikeypartnumber
+c1	10uF	P19522CT-ND
+c2	10uF	P19522CT-ND
+c3	10uF	478-8042-1-ND
+c4	10uF	478-8042-1-ND
+c5	10uF	478-8042-1-ND
+c6	10uF	478-8042-1-ND
+d1	green	516-1792-1-ND
+d2	green   516-1792-1-ND
+j1	usb b micro	609-4618-1-ND
+p1	right angle header pins	952-3615-ND
+r1	1.5k	CF14JT1K50CT-ND
+r2	1.5k    CF14JT1K50CT-ND
+sw1	pushbutton on/off	CW181-ND
+u1	+5vreg	296-20933-1-ND
+u2	7660	LMC7660IN/NOPB-ND
+u3	-5vreg	296-31456-1-ND
